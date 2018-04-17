@@ -28,10 +28,10 @@ var contactForm = {
 class App extends React.component {
 	render() {
 		return (
-			<div className='app'>
-				<ContactForm contact=contactForm />
-				<Contacts items=contacts />
-      </div>
-		)
+			<div className={'app'}>
+				<ContactForm contact={contactForm} />
+				<Contacts items={contacts} />
+            </div>
+        )
 	}
 };
