@@ -32,6 +32,6 @@ class App extends React.component {
 				<ContactForm contact={contactForm} />
 				<Contacts items={contacts} />
       </div>
-    )
+    );
 	}
 };
