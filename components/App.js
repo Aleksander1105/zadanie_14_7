@@ -31,7 +31,7 @@ class App extends React.component {
 			<div className={'app'}>
 				<ContactForm contact={contactForm} />
 				<Contacts items={contacts} />
-            </div>
-        )
+      </div>
+    )
 	}
 };
