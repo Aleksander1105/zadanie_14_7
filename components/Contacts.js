@@ -1,15 +1,15 @@
-class Contacts extends React.component {
+const Contacts = React.createClass({
   propTypes: {
     items: React.PropTypes.array.isRequired
   },
 
   render() {
-    class contacts = this.props.items.map(function(contact) {
+    let contacts = this.props.items.map(function(contact) {
       return <Contact item={contact} key={contact.id}>
     };
 
     return (
-      <ul className={'contactsList'}, {contacts}</ul>
+      <ul className={'contactsList'}>{contacts}</ul>
     )
   }
-};
+});

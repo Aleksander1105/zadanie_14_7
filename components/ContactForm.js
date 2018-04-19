@@ -1,4 +1,4 @@
-class ContactForm extends React.component {
+const ContactForm = React.createClass({
 	propTypes: {
 		contact: React.PropTypes.object.isRequired
 	},
@@ -13,4 +13,4 @@ class ContactForm extends React.component {
 			</form>
 		)
 	}
-};
+});
