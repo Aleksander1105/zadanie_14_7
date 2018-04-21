@@ -25,8 +25,8 @@ var contactForm = {
   email: ''
 };
 
-class App extends React.component {
-	render() {
+const App = React.createClass ({
+	render: function() {
 		return (
 			<div className={'app'}>
 				<ContactForm contact={contactForm} />
@@ -34,4 +34,4 @@ class App extends React.component {
       </div>
     );
 	}
-};
+});
